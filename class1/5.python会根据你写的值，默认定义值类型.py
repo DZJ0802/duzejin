@@ -1,9 +1,10 @@
 """
 python会根据你写的值，默认定义值类型
-a1 = 20 数字int
-a2 = "Hello" str 字符串
-a3 = [1, 2, 3] list 列表
-a4 = {"age": 22} dict字典
+a1 = 20 数字int  不可变类型
+a2 = "Hello" string 字符串  不可变类型
+a3 = [1, 2, 3] list 列表  可变类型
+a4 = {"age": 22} dict字典  可变类型
+a5 = (1, 2, 3) Tuple元组  不可变类型
 """
 a1 = 20
 a2 = "Hello"
