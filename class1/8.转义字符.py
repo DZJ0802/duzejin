@@ -9,7 +9,7 @@
 \b 退格键（Backspace）
 \v 纵向制表符
 \t 横向制表符
-\r 回车
+\r 回车 将\r 后面字符替换前面字符
 \f 换页
 \yyy 八进制数，y代表0-7的字符，例如：\012 代表换行
 """
@@ -24,7 +24,7 @@ print('\\')
 
 # 4.打印一个路径，带有反斜杠 \的时候
 # 我有个路径D:\new\row 第一个写的这样错误的
-print('D:\new\row')
+# 错误：print('D:\new\row')
 # 需转义
 print('D:\\new\\row')
 # raw 原始数据不需要转义
@@ -34,21 +34,20 @@ print(r'D:\\new\\row')
 print("\a")
 
 # 6.\b 退格键（Backspace）
-print("Hello \b World")
+print("6Hello \b World")
 
 # 7.\v 纵向制表符
-print("Hello \v World")
+print("7Hello \v World")
 
 # 8.\t 横向制表符
-print("Hello \t World")
+print("8Hello \t World")
 
 # 9.\r 回车
-print("Hello\rWorld")
+print("9Hello\rWorld")
 
 # 10.\f 换页
-print("Hello \f World")
+print("10Hello \f World")
 
 # 11.\yyy 八进制数，y代表0-7的字符，例如：\012 代表换行
 # print("\110\145\154\154\157\40")
-
 
