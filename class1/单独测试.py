@@ -1,0 +1,1 @@
+print('google runoob toabao\r123456')
